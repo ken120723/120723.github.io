@@ -20,6 +20,7 @@ body {
     color: white;
     text-shadow: 4px 4px 0px black, 8px 8px 0px red;
     animation: glow 1.5s infinite alternate;
+    letter-spacing: 2px;
 }
 .monthsary-image {
     margin-top: 20px;
@@ -30,6 +31,7 @@ body {
 @media (max-width: 768px) {
     .message {
         font-size: 1.8em;
+        letter-spacing: 1.5px;
     }
     .monthsary-image {
         width: 90%;
